@@ -17,10 +17,4 @@ let view = QueueViewController()
 page.liveView = view
 
 view.enqueue(Cat.dodgy.rawValue)
-//view.enqueue(1)
-//view.enqueue(1)
-
-//view.enqueue(1)
-//view.dequeue()
-//view.enqueue(1)
-
+view.dequeue()
